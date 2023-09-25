@@ -29,5 +29,29 @@ To add a "Convert to FBX" option to the context menu for OBJ files in Windows Fi
 This project is licensed under the MIT License
 
 
+## Blender Setup
+
+Before using the scripts, ensure that Blender is installed on your system and correctly set up in your system's PATH. This allows the scripts to invoke Blender from the command line.
+
+### Steps to Add Blender to PATH:
+
+1. **Find Blender Executable:**
+   - Locate the directory where Blender is installed. The Blender executable (`blender.exe`) is usually located in the installation directory.
+
+2. **Edit System Environment Variables:**
+   - Right-click on 'This PC' or 'Computer' on your desktop or in File Explorer, and select 'Properties'.
+   - Click on 'Advanced system settings' on the left.
+   - In the System Properties window, click on the 'Environment Variables...' button.
+
+3. **Add Blender to PATH:**
+   - In the Environment Variables window, under 'System variables', scroll down and select the 'Path' variable, then click on 'Edit...'.
+   - In the Edit Environment Variable window, click 'New' and paste the path to the directory containing `blender.exe`.
+   - Click 'OK' to close each window.
+
+4. **Verify Blender Setup:**
+   - Open a new Command Prompt window.
+   - Type `blender --version` and press Enter. If Blender is correctly set up, it will display the installed Blender version.
+
+Once Blender is correctly set up in your system's PATH, you should be able to use the conversion scripts provided in this repository.
 
 
