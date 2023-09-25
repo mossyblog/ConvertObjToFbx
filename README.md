@@ -25,6 +25,9 @@ To add a "Convert to FBX" option to the context menu for OBJ files in Windows Fi
 
 ** _Note: Modifying the Windows Registry can affect system behavior. Please follow the instructions carefully and consider backing up the registry before making changes._ **
 
+![image](https://github.com/mossyblog/ConvertObjToFbx/assets/895614/6259b439-a49b-4196-8924-cae794fbb044)
+
+
 ### License
 This project is licensed under the MIT License
 
