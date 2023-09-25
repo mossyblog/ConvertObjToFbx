@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.obj]
+@="objfile"
+
+[HKEY_CLASSES_ROOT\objfile]
+@="OBJ File"
+
+[HKEY_CLASSES_ROOT\objfile\shell]
+
+[HKEY_CLASSES_ROOT\objfile\shell\ConvertToFBX]
+@="Convert to FBX"
+
+[HKEY_CLASSES_ROOT\objfile\shell\ConvertToFBX\command]
+@="\"C:\\scripts\\Convert.bat\" \"%1\""
